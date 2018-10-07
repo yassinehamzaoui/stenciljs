@@ -5,11 +5,9 @@
   "description": "Stencil App Starter",
   "scripts": {
     "build": "stencil build --prerender",
-    "dev": "stencil build --dev --watch --serve",
+    "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec",
-    "test.watch": "stencil test --spec --watchAll",
-    "install": "stencil build",
-    "start" : "node server.js"
+    "test.watch": "stencil test --spec --watchAll"
   },
   "dependencies": {
     "@stencil/core": "~0.13.2",
